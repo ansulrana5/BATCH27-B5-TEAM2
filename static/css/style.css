@@ -3,13 +3,12 @@
 @font-face { font-family: JuneBug; src: url('SAMAN___.TTF'); } 
   
 #content {
-    
     font-family: JuneBUg;
     font-size: 85px;
     background: rgba(255, 255, 255, 0.739);
     color: #e6651b;
     width: 100%;
-    height: 100px;
+    height: 120px;
     text-align: center;
     
    
@@ -24,16 +23,13 @@
     min-height: 100%;
   }
 .mybutton {
-  background-color: #602be6;
-  color: rgb(255, 255, 255);
+
   padding: 16px 32px;
   text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
   font-family:'JuneBUg';
-  color: antiquewhite;
+  color: rgb(20, 17, 12);
   text-decoration: none;
   background-position: 0in;
   font-size: 56px;
-  margin: 4x 2px;
-  transition-duration: 034s;
-  cursor: pointer;
 }
