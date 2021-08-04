@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>this is my page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <h1>Sanskriti </h1>
-    <h2>The heritage of India</h2>
+    <h1 id="content">Sanskriti</h1>
+
+    <video autoplay muted loop id="myVideo">
+      <source src="{{ url_for('static', filename='in.mp4')}}" type="video/mp4">
+    </video>
+    <button type="button" class="mybutton">
+      Explore
+    </button>
 </body>
 </html>
