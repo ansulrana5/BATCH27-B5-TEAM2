@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
 </head>
+
 <body>
-    <h1 id="content">Sanskriti</h1>
+    <nav>
+        <a>Home</a>
+        <a>about</a>
+        <a>contact</a>
+        <h1 id="content">Sanskriti</h1>
+    </nav>
+
+
 
     <video autoplay muted loop id="myVideo">
       <source src="{{ url_for('static', filename='in.mp4')}}" type="video/mp4">
-    </video>
-    <button type="button" class="mybutton">
-      LET'S EXPLORE!
-    </button>
+  </video>
+    <a href="/About">
+        <button type="button" class="mybutton">
+      LET EXPLORE!
+        </button>
+    </a>
 </body>
+
 </html>

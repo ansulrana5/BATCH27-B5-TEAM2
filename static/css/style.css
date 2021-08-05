@@ -1,35 +1,36 @@
+@font-face {
+    font-family: JuneBug;
+    src: url('SAMAN___.TTF');
+}
 
-
-@font-face { font-family: JuneBug; src: url('SAMAN___.TTF'); } 
-  
 #content {
+    margin-top: 0px;
     font-family: JuneBUg;
-    font-size: 85px;
+    font-size: 55px;
     background: rgba(255, 255, 255, 0.739);
     color: #e6651b;
     width: 100%;
-    height: 120px;
+    height: 80px;
     text-align: center;
-    
-   
-  }
- body{
-   background-color: rgba(137, 142, 189, 0.5);
- }
-  
-#myVideo {
-    padding-top: 0pxx;
-    min-width: 100%; 
-    min-height: 100%;
-  }
-.mybutton {
+}
 
-  padding: 16px 32px;
-  text-align: center;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
-  font-family:'JuneBUg';
-  color: rgb(20, 17, 12);
-  text-decoration: none;
-  background-position: 0in;
-  font-size: 56px;
+body {
+    background-color: rgba(137, 142, 189, 0.5);
+}
+
+#myVideo {
+    margin-left: 35px;
+    height: 600px;
+    width: 95%;
+    object-fit: cover;
+}
+
+.mybutton {
+    padding: 16px 32px;
+    text-align: center;
+    font-family: 'JuneBUg';
+    color: rgb(20, 17, 12);
+    text-decoration: none;
+    background-position: 0in;
+    font-size: 56px;
 }
