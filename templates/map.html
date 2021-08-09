@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Second page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map Page</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+  </head>
+  <body>
+    <nav>
+      <label class="logo">SANSKRITI</label>
+      <ul>
+        <li><a href="{{url_for("Map")}}">Home</a></li>
+        <li><a href="{{url_for("About")}}">About</a></li>
+        <li><a href="{{url_for("Contact")}}">Contact</a></li>
+        <li><input type="text" id="search"></li>
+        <li><button type="Submit" id="button">Search</li>   
+   </ul>
+    </nav>
+<div style="text-align:center; background-color:#DAF7A6;">
 
-</head>
-
-<body>
-
-    <body style="text-align:center;">
-        <img id="India-Map" src="../static/images/India-Map.jpg" alt="India Map" width="800" height="790" class="aligncenter" usemap="#shapemap" />
+ <img id="India-Map" src="../static/images/India-Map.jpg" alt="India Map" width="800" height="790" class="aligncenter"
+            usemap="#shapemap" />
 
         <map name="shapemap" id="shape-map">
             <area shape="poly" coords="355,698, 300,772, 335,826, 374,737, 379,706 " href="https://facebook.com"
@@ -30,8 +38,7 @@
             <area shape="poly" coords="308,281, 291,315, 349,339, 350,365, 406,389, 421,331 "
                 href="https://facebook.com" alt="Uttar Pradesh" target="_blank">
         </map>
+</div>
 
-    </body>
-</body>
-
+  </body>
 </html>

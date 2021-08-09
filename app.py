@@ -10,5 +10,13 @@ def index():
 def Map():
     return render_template('map.html')
 
+@app.route("/About")
+def About():
+    return render_template('about.html')
+
+@app.route("/Contact")
+def Contact():
+    return render_template('contact.html')
+
 if __name__=="__main__":
     app.run(debug=True,port=5312)
