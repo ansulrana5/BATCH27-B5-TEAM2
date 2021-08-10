@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Second page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/style.css">
-  </head>
-  <body>
+    <link rel="stylesheet" href="../static/css/nav.css">
+</head>
+
+<body>
     <nav>
-      <label class="logo">SANSKRITI</label>
-      <ul>
-        <li><a href="{{url_for("Map")}}">Home</a></li>
-        <li><a href="{{url_for("About")}}">About</a></li>
-        <li><a href="{{url_for("Contact")}}">Contact</a></li>
-        <li><input type="text" id="search"></li>
-        <li><button type="Submit" id="button">Search</li>   
+        <label class="logo">SANSKRITI</label>
+        <ul>
+            <li><a href="{{url_for('Map')}}">Home</a></li>
+            <li><a href="{{url_for('About')}}">About</a></li>
+            <li><a href="{{url_for('Contact')}}">Contact</a></li>
+            <li><input type="text" id="search"></li>
+            <li><button type="Submit" id="button">Search</li>   
    </ul>
     </nav>
 <div class="container">
