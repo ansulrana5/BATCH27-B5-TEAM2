@@ -6,15 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../static/css/gallery.css">
+    <link rel="stylesheet" href="../static/css/nav.css">
 </head>
 
 <body>
-    <h1>indian art gallery</h1>
+    <nav>
+        <label class="logo">SANSKRITI</label>
+        <ul>
+            <li><a href="{{url_for('Map')}}">Home</a></li>
+            <li><a href="{{url_for('About')}}">About</a></li>
+            <li><a href="{{url_for('Contact')}}">Contact</a></li>
+            <li><a href="{{url_for('Gallery')}}">Gallery</a></li>
+            <li><a href="{{url_for('Team')}}">Developers</a></li>  
+   </ul>
+    </nav>
+    <h1 style="border-style: solid; border-color: black; width: 100%; text-align: center;background: #DAF7A6;">indian art gallery</h1>
     <div class="container">
         <div class="box">
             <div class="imgbox">
-                <img src="images/gond .jpg" alt="Gond">
+                <img src="../static/images/gond .jpg" alt="Gond">
             </div>
             <h1>Gond Painting</h1>
             <p>These vibrant paintings created with a series of intricately arranged dots and dashes were developed by
@@ -29,7 +40,7 @@
         </div>
         <div class="box">
             <div class="imgbox">
-                <img src="images/IMG_1635Madhubani__Baua_devi__size-59X43_Rs.75000_.jpg" alt="Gond">
+                <img src="../static/images/IMG_1635Madhubani__Baua_devi__size-59X43_Rs.75000_.jpg" alt="Gond">
             </div>
             <h1>Madhubani Paintings</h1>
             <p>One of the most celebrated styles of folk paintings in India is, Madhubani which originated in the
@@ -42,7 +53,7 @@
         </div>
         <div class="box">
             <div class="imgbox">
-                <img src="images/kalamkari.jpg" alt="Gond">
+                <img src="../static/images/kalamkari.jpg" alt="Gond">
             </div>
             <h1>Kalamkari Painting</h1>
             <p>This 3000-year-old organic art of hand and block printing was traditionally used for making narrative
@@ -55,7 +66,7 @@
         </div>
         <div class="box">
             <div class="imgbox">
-                <img src="images/Kalighat.jpg" alt="Gond">
+                <img src="../static/images/Kalighat.jpg" alt="Gond">
             </div>
             <h1>Kalighat Painting</h1>
             <p>The Kalighat painting style was developed around Mid-19th century in the neighbourhood of Kali Temple in
@@ -64,12 +75,11 @@
                 They depicted scenes of everyday life and mythological deities in a simple yet captivating manner and
                 developed into the
                 popular kalighat style of painting.
-                Kalighat painters predominantly use earthy Indian colours like indigo, ochre, Indian red, grey, blue and
-                white.</p>
+                </p>
         </div>
         <div class="box">
             <div class="imgbox">
-                <img src="images/kerala_mural.jpg" alt="Gond">
+                <img src="../static/images/kerala_mural.jpg" alt="Gond">
             </div>
             <h1>Kerala Murals Painting</h1>
             <p>The vibrant Kerala mural paintings are one of the world’s most famous frescos and have deep spiritual
@@ -81,7 +91,7 @@
         </div>
         <div class="box">
             <div class="imgbox">
-                <img src="images/MINIATURE.jpg" alt="Gond">
+                <img src="../static/images/MINIATURE.jpg" alt="Gond">
             </div>
             <h1>Miniature Painting</h1>
             <p>The Miniature painting style came to India with the Mughals in the 16th century and is identified as an
@@ -94,7 +104,7 @@
         </div>
         <div class="box">
             <div class="imgbox">
-                <img src="images/odisha_patachitra.jpg" alt="Gond">
+                <img src="../static/images/odisha_patachitra.jpg" alt="Gond">
             </div>
             <h1>Patachitra Painting</h1>
             <p>Patachitra is the cloth scroll painting tradition from Odisha, dedicated to mythological and religious
@@ -105,7 +115,7 @@
         </div>
         <div class="box">
             <div class="imgbox">
-                <img src="images/Phad.jpg" alt="Gond">
+                <img src="../static/images/Phad.jpg" alt="Gond">
             </div>
             <h1>Phad Painting</h1>
             <p>Phad is the narrative scroll painting tradition from Rajasthan, dating back to a thousand years.
@@ -120,7 +130,7 @@
         </div>
         <div class="box">
             <div class="imgbox">
-                <img src="images/PICHWAi.jpg" alt="Gond">
+                <img src="../static/images/PICHWAi.jpg" alt="Gond">
             </div>
             <h1>Pichwai Painting</h1>
             <p>The art of Picchwai originated as wall hangings behind the main deity in Krishna temples in Nathdwara.
@@ -133,7 +143,7 @@
         </div>
         <div class="box">
             <div class="imgbox">
-                <img src="images/Warli Painting.jpg" alt="Gond">
+                <img src="../static/images/Warli Painting.jpg" alt="Gond">
             </div>
             <h1>Warli Painting</h1>
             <p>The 2500-year-old tradition of Warli paintings of the Thane and Nasik areas of Maharashtra are closely

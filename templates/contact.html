@@ -15,37 +15,32 @@
             <li><a href="{{url_for('Map')}}">Home</a></li>
             <li><a href="{{url_for('About')}}">About</a></li>
             <li><a href="{{url_for('Contact')}}">Contact</a></li>
-            <li><input type="text" id="search"></li>
-            <li><button type="Submit" id="button">Search</li>   
+            <li><a href="{{url_for('Gallery')}}">Gallery</a></li>
+            <li><a href="{{url_for('Team')}}">Developers</a></li>  
    </ul>
     </nav>
-<div class="container">
-  <div style="text-align:center">
-    <h1>Contact Us</h1>
-    <p>Swing by for a cup of coffee, or leave us a message:</p>
-  </div>
-  <div class="row">
-    <div class="column" style="border-style:solid;">
-      <img src="../static/images/09.jpg" style="width:100%; height:550px;">
+    <div class="container">
+      <div style="text-align:center">
+        <h1>Contact Us</h1>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+      </div>
+      <div class="row">
+        <div class="column" style="border-style:solid;">
+          <img src="../static/images/09.jpg" style="width:100%; height:550px;">
+        </div>
+        <div class="column" style="border-style:solid;">
+          <form action="{{url_for('Contact')}}" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your Email..">
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit"  value="Submit">
+            {{final}}
+          </form>
+        </div>
+      </div>
     </div>
-    <div class="column" style="border-style:solid;">
-      <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        <label for="country">Country</label>
-        <select id="country" name="country">
-          <option value="India">India</option>
-          <option value="Canada">Canada</option>
-          <option value="USA">USA</option>
-        </select>
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-  </div>
-</div>
  </body>
 </html>
