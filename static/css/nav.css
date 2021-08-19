@@ -15,12 +15,17 @@
 
 body {
     font-family: montserrat;
+    text-align: center;
+    background-color: #d7f0a9;
 }
 
 nav {
-    background: #ffffff;
-    height: 80px;
+    background: #fdfdfd;
+    height: 90px;
     width: 100%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
 }
 
 label.logo {
@@ -33,11 +38,12 @@ label.logo {
 }
 
 nav ul {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 14px;
-    width: 45%;
-    background-color: #9c89ee;
+    width: 55%;
+    background-color: #9898ec;
     float: right;
-    margin-right: 15px;
+    margin-right: 5px;
     border-radius: 2em;
 }
 
@@ -123,7 +129,6 @@ section {
     background-size: cover;
     height: calc(100vh - 80px);
 }
-
 
 #button {
     border-style: solid;
@@ -212,7 +217,6 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-    background-color: #DAF7A6;
     padding: 30px;
 }
 
