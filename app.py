@@ -1,5 +1,7 @@
 from flask import Flask,render_template,request
 from flask_mail import Mail,Message
+import json
+import requests
 
 app = Flask(__name__)
 
@@ -41,6 +43,18 @@ def Team():
 @app.route("/Gallery")
 def Gallery():
     return render_template('art.html')
+
+@app.route("/apiV1")
+def api():
+    with open(r"api.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/api_hit")
+def api_hit():
+    data=requests.get("http://127.0.0.1:5312/apiV1")
+    data=json.loads(data.content)
+    return render_template("test.html", data=data)
 
 if __name__=="__main__":
     app.run(debug=True,port=5312)
