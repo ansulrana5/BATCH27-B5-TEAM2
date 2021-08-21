@@ -6,6 +6,7 @@
     <title>Second page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/css/nav.css">
+    <link rel="stylesheet" href="../static/css/ST.CSS">
 </head>
 
 <body>
@@ -21,28 +22,102 @@
             </li>
         </ul>
     </nav>
-    <div style="text-align:center; ">
 
-        <img id="India-Map " src="../static/images/India-Map.jpg " alt="India Map " width="800 " height="790 " class="aligncenter " usemap="#shapemap " style="padding-top: 30px; " />
 
-        <map name="shapemap " id="shape-map ">
-            <area shape="poly " coords="355,698, 300,772, 335,826, 374,737, 379,706 " href="https://facebook.com "
-                alt="Tamil NAdu " target="_blank ">
-            <area shape="poly " coords="239,720, 316,836, 329,824, 297,774, 258,712 " href="https://facebook.com "
-                alt="Kerala " target="_blank ">
-            <area shape="poly " coords="306,564, 283,549, 238,612, 248,694, 298,763, 339,706, 314,690, 291,636 "
-                href="https://facebook.com " alt="Karnataka " target="_blank ">
-            <area shape="poly " coords="384,694, 315,683, 302,625, 370,587, 416,576, 467,541, 487,557, 383,646 "
-                href="https://facebook.com " alt="Andhra Pradesh " target="_blank ">
-            <area shape="poly " coords="218,623, 176,547, 213,483, 329,480, 341,520, 280,545 "
-            href="{{url_for('api_hit')}}" alt="Maharastra " target="_blank ">
-            <area shape="poly " coords="235,428, 230,479, 339,476, 368,420, 367,402, 383,385 "
-                href="https://facebook.com " alt="Madhya Pradesh " target="_blank ">
-            <area shape="poly " coords="308,281, 291,315, 349,339, 350,365, 406,389, 421,331 "
-                href="https://facebook.com " alt="Uttar Pradesh " target="_blank ">
-        </map>
+
+    <div id="image-map">
+        <img width="1000" height="1000" src="../static/images/India-Map.jpg" alt="Our Locations" style="border-radius: 1em;">
+        <div class="pin pin-down" data-xpos="280" data-ypos="595">
+            <h2 class="te">Maharashtra</h2>
+            <ul class="uo">
+                <img width="190px" height="100px" src=" r2.PNG "></img>
+            </ul>
+        </div>
+
+
+        <div class="pin pin-down" data-xpos="276" data-ypos="710">
+            <h2 class="te">Goa</h2>
+            <ul class="uo">
+                <img width="190px" height="100px" src=" r2.PNG "></img>
+            </ul>
+        </div>
+        <div class="pin pin-down" data-xpos="330" data-ypos="755">
+            <h2 class="te">Karnataka</h2>
+            <ul class="uo">
+                <img width="190px" height="100px" src=" r2.PNG "></img>
+            </ul>
+        </div>
+        <div class="pin pin-down" data-xpos="392" data-ypos="650">
+            <h2 class="te">Telangana</h2>
+            <ul class="uo">
+                <img width="190px" height="100px" src=" r2.PNG "></img>
+            </ul>
+        </div>
+        <div class="pin pin-down" data-xpos="420" data-ypos="725">
+            <h2 class="te">Andhra Pradesh</h2>
+            <ul class="uo">
+                <img width="190px" height="100px" src=" r2.PNG "></img>
+            </ul>
+        </div>
+        <div class="pin pin-down" data-xpos="400" data-ypos="865">
+            <h2 class="te">Tamil Nadu</h2>
+            <ul class="uo">
+                <img width="190px" height="100px" src=" r2.PNG "></img>
+            </ul>
+        </div>
+        <div class="pin pin-down" data-xpos="340" data-ypos="865">
+            <h2 class="te">Kerla</h2>
+            <ul class="uo">
+                <img width="190px" height="100px" src=" r2.PNG "></img>
+            </ul>
+        </div>
+        <div class="pin pin-down" data-xpos="178" data-ypos="520">
+            <h2 class="te">Gujrat</h2>
+            <ul class="uo">
+                <img width="190px" height="100px" src=" r2.PNG "></img>
+            </ul>
+        </div>
+        <div class="pin pin-down" data-xpos="380" data-ypos="485">
+            <h2 class="te">Madhya pradesh</h2>
+            <ul class="uo">
+                <img width="190px" height="100px" src=" r2.PNG "></img>
+            </ul>
+        </div>
+        <div class="pin pin-down" data-xpos="448" data-ypos="535">
+            <h2 class="te">Chatisgharh</h2>
+            <ul class="uo">
+                <img width="190px" height="100px" src=" r2.PNG "></img>
+            </ul>
+        </div>
+        <div class="pin pin-down" data-xpos="430" data-ypos="365">
+            <h2 class="te">Uttar Pradesh</h2>
+            <ul class="uo">
+                <img width="190px" height="100px" src=" r2.PNG "></img>
+            </ul>
+        </div>
+        <div class="pin pin-down" data-xpos="290" data-ypos="300">
+            <h2 class="te">Punjab</h2>
+            <ul class="uo">
+                <img width="190px" height="100px" src=" r2.PNG "></img>
+            </ul>
+        </div>
+        <div class="pin pin-down" data-xpos="290" data-ypos="200">
+            <h2 class="te">Jammu And Kashmir</h2>
+            <ul class="uo">
+                <img width="190px" height="100px" src=" r2.PNG "></img>
+            </ul>
+        </div>
+        <div class="pin pin-down" data-xpos="565" data-ypos="390">
+            <h2 class="te">Bihar</h2>
+            <ul class="uo">
+                <img width="190px" height="100px" src=" r2.PNG "></img>
+            </ul>
+        </div>
     </div>
 
+    <!-- Script -->
+    <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
+    <script src='../static/js/s.js' type="text/javascript "></script>
 </body>
 
 </html>

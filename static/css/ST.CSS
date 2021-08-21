@@ -1,0 +1,84 @@
+/* Web Font */
+
+
+/* Relative positioning*/
+
+#image-map {
+    position: relative;
+    margin: 19px auto 20px 22px;
+}
+
+
+/* Hide the original tooltips contents */
+
+.pin {
+    display: none;
+}
+
+
+/* Begin styling the tooltips and pins */
+
+.tooltip-up,
+.tooltip-down {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 3em;
+    background-color: rgb(8, 7, 7);
+}
+
+.tooltip-down {
+    background-position: 0 -37px;
+}
+
+.tooltip {
+    display: none;
+    width: 200px;
+    text-shadow: 0 1px 0 rgb(94, 80, 80);
+    top: 58%;
+    left: 50%;
+    position: absolute;
+    z-index: 999;
+    margin-left: -100px;
+    margin-bottom: 20px;
+    padding: 15px;
+    color: rgb(247, 241, 241);
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(37, 34, 34, 0.7);
+    background: #aeaae2;
+    background: linear-gradient(top, #eff5f0, #e7a412);
+}
+
+.tooltip::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -10px;
+    border-bottom: 10px solid #0dec8f;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.tooltip-down .tooltip {
+    bottom: 12px;
+    top: auto;
+}
+
+.tooltip-down .tooltip::after {
+    bottom: -10px;
+    top: auto;
+    border-bottom: 0;
+    border-top: 10px solid #90a1ff;
+}
+
+.tooltip .te {
+    font: bold 1.3em 'Trebuchet MS', Tahoma, Arial;
+    margin: 0 0 10px;
+}
+
+.tooltip .uo {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

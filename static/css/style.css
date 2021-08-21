@@ -36,6 +36,7 @@ body {
     box-shadow: #e6651b;
     -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
     transition: box-shadow 300ms ease-in-out, color 200 ms ease-in-out;
+    box-shadow: 8px 4px 8px 0 rgba(136, 89, 89, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .myb:hover {
