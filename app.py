@@ -44,17 +44,29 @@ def Team():
 def Gallery():
     return render_template('art.html')
 
-@app.route("/apiV1")
-def api():
-    with open(r"api.json",'r') as jsonfile:
+@app.route("/maharashtra_api")
+def maharashtra_api():
+    with open(r"maharashtra.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
-@app.route("/api_hit")
-def api_hit():
-    data=requests.get("http://127.0.0.1:5312/apiV1")
+@app.route("/maharashtra")
+def maharashtra():
+    data=requests.get("http://127.0.0.1:5312/maharashtra_api")
     data=json.loads(data.content)
-    return render_template("test.html", data=data)
+    return render_template("maharashtra.html", data=data)
+
+@app.route("/uttarpradesh_api")
+def uttarpradesh_api():
+    with open(r"uttarpradesh.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/uttarpradesh")
+def uttarpradesh():
+    data=requests.get("http://127.0.0.1:5312/uttarpradesh_api")
+    data=json.loads(data.content)
+    return render_template("uttarpradesh.html", data=data)
 
 if __name__=="__main__":
     app.run(debug=True,port=5312)
