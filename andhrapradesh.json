@@ -1,0 +1,62 @@
+{
+    "data": [
+        {
+            "state": "andhrapradesh",
+            "img": "https://www.eyeonasia.gov.sg/images/india-selected/andhra-pradesh-profile.jpg",
+            "data1": "Situated in the southeastern coast of India, Andhra Pradesh is the 4th largest State of India. The capital of the state was Hyderabad which is also the largest city here. However, due to the announcement of the recently formed Telangana State, Hyderabad will be a part and capital of Telangana from the 2nd of June 2014. The State of Hyderabad will continue to function as the State Capital of Andhra Pradesh for a period not exceeding 10 years till a new capital is determined. The state of Andhra Pradesh is mentioned since 800 BC in the Sanskrit Epics like Aitareya Brahmana and Mahabharata. The native language ‘Telugu’ is often associated with the Early Cholas. Andhra Pradesh also came under the rule of the Maurya Empire, the Ikshvaku Dynasty, Pallava, Rashtrakutas, Chalukyas and Later Cholas.When it comes to geography, Andhra covers most of the eastern part of the Deccan plateau and the eastern plains of the Eastern Ghats. The Eastern Ghats being a mineral rich area is covered with thick vegetation and the two regions are connected by patch of sparse vegetation.",
+            "data2": "The State of Andhra Pradesh is well promoted by their tourism department and is well known for its rich natural resources, temples and rivers. The state of Andhra also shares a part of the coastal areas of the Bay of Bengal. The rich cultural heritage, ancient architecture and historical importance have made Andhra Pradesh one of the top tourist destinations in India.",
+            "place":[{
+                "name":"VISAKHAPATNAM",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/visakhapatnam-1.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Visakhapatnam was the second largest city in Andhra Pradesh and a major sea port of India. However, with the recently announced Telangana State, Vishakhapatnam will now be the largest city of Andhra Pradesh and a probable Capital of the future state of Andhra Pradesh. The climate is tropical and humidity is high throughout the year. The city has all the necessary attractions and resources to make it one of the top tourist destinations in India."
+            },
+            {
+                "name":"TIRUPATI",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/sri-venkateswara-temple-tirupati.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Visakhapatnam was the second largest city in Andhra Pradesh and a major sea port of India. However, with the recently announced Telangana State, Vishakhapatnam will now be the largest city of Andhra Pradesh and a probable Capital of the future state of Andhra Pradesh. The climate is tropical and humidity is high throughout the year. The city has all the necessary attractions and resources to make it one of the top tourist destinations in India."
+            },
+            {
+                "name":"VIJAYAWADA",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/vijayawada-1.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Visakhapatnam was the second largest city in Andhra Pradesh and a major sea port of India. However, with the recently announced Telangana State, Vishakhapatnam will now be the largest city of Andhra Pradesh and a probable Capital of the future state of Andhra Pradesh. The climate is tropical and humidity is high throughout the year. The city has all the necessary attractions and resources to make it one of the top tourist destinations in India."
+            },
+            {
+                "name":"NELLORE",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/pulicat-lake-nellore.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Visakhapatnam was the second largest city in Andhra Pradesh and a major sea port of India. However, with the recently announced Telangana State, Vishakhapatnam will now be the largest city of Andhra Pradesh and a probable Capital of the future state of Andhra Pradesh. The climate is tropical and humidity is high throughout the year. The city has all the necessary attractions and resources to make it one of the top tourist destinations in India. "
+            },
+            {
+                "name":"CHITTOOR",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/chittoor-1.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Visakhapatnam was the second largest city in Andhra Pradesh and a major sea port of India. However, with the recently announced Telangana State, Vishakhapatnam will now be the largest city of Andhra Pradesh and a probable Capital of the future state of Andhra Pradesh. The climate is tropical and humidity is high throughout the year. The city has all the necessary attractions and resources to make it one of the top tourist destinations in India."
+            },
+            {
+                "name":"ANANTAPUR",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/anantapur-1.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Visakhapatnam was the second largest city in Andhra Pradesh and a major sea port of India. However, with the recently announced Telangana State, Vishakhapatnam will now be the largest city of Andhra Pradesh and a probable Capital of the future state of Andhra Pradesh. The climate is tropical and humidity is high throughout the year. The city has all the necessary attractions and resources to make it one of the top tourist destinations in India."
+            },
+            {
+                "name":"KURNOOL",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/kurnool-2.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Visakhapatnam was the second largest city in Andhra Pradesh and a major sea port of India. However, with the recently announced Telangana State, Vishakhapatnam will now be the largest city of Andhra Pradesh and a probable Capital of the future state of Andhra Pradesh. The climate is tropical and humidity is high throughout the year. The city has all the necessary attractions and resources to make it one of the top tourist destinations in India."
+            },
+            {
+                "name":"KADAPA",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/kadapa-1.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Visakhapatnam was the second largest city in Andhra Pradesh and a major sea port of India. However, with the recently announced Telangana State, Vishakhapatnam will now be the largest city of Andhra Pradesh and a probable Capital of the future state of Andhra Pradesh. The climate is tropical and humidity is high throughout the year. The city has all the necessary attractions and resources to make it one of the top tourist destinations in India. "
+            },
+            {
+                "name":"SRIKALAHASTI",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/srikalahasti-1.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Visakhapatnam was the second largest city in Andhra Pradesh and a major sea port of India. However, with the recently announced Telangana State, Vishakhapatnam will now be the largest city of Andhra Pradesh and a probable Capital of the future state of Andhra Pradesh. The climate is tropical and humidity is high throughout the year. The city has all the necessary attractions and resources to make it one of the top tourist destinations in India. "
+            },
+            {
+                "name":"ONGOLE",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/ongole-1.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Ongole is an ancient town that came under the reign of the ancient southern Indian kingdoms like Mauryas and Sathavahanas and the Pallava Ruler Krishna Deva Raya. Due to this ancient history behind the town’s origin, it is famous for its Hindu temples which date back to the 17th century. The town’s major produce is tobacco and is famous for its various small scale industries."
+            }
+            
+        ]
+        }
+    ]
+}
