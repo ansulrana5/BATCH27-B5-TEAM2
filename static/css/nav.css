@@ -17,6 +17,8 @@ body {
     font-family: montserrat;
     text-align: center;
     background-color: #d7f0a9;
+    background-image: url("../images/e.jpg");
+    background-size: 6100px;
 }
 
 nav {
@@ -35,13 +37,15 @@ label.logo {
     padding: 0 100px;
     font-weight: bold;
     font-family: JuneBug;
+    text-shadow: 2px 4px #3f2121;
+    ;
 }
 
 nav ul {
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 14px;
     width: 55%;
-    background-color: #9898ec;
+    background-image: url("../images/g.jpg");
     float: right;
     margin-right: 5px;
     border-radius: 2em;
