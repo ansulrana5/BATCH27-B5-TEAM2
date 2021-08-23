@@ -308,7 +308,7 @@ def jharkhand():
     data=json.loads(data.content)
     return render_template("jharkhand.html", data=data)
 
-@app.route("odisha_api")
+@app.route("/odisha_api")
 def odisha_api():
     with open(r"static/json/odisha.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
