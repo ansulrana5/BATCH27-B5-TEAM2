@@ -176,6 +176,54 @@ def haryana():
     data=json.loads(data.content)
     return render_template("haryana.html", data=data)
 
+@app.route("/monuments_api")
+def monuments_api():
+    with open(r"monuments.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/monuments")
+def monuments():
+    data=requests.get("http://127.0.0.1:5312/monuments_api")
+    data=json.loads(data.content)
+    return render_template("monuments.html", data=data)
+
+@app.route("/indianfood_api")
+def indianfood_api():
+    with open(r"indianfood.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/indianfood")
+def indianfood():
+    data=requests.get("http://127.0.0.1:5312/indianfood_api")
+    data=json.loads(data.content)
+    return render_template("indianfood.html", data=data)
+
+@app.route("/culture_api")
+def culture_api():
+    with open(r"culture.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/culture")
+def culture():
+    data=requests.get("http://127.0.0.1:5312/culture_api")
+    data=json.loads(data.content)
+    return render_template("culture.html", data=data)
+
+@app.route("/language_api")
+def language_api():
+    with open(r"language.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/language")
+def language():
+    data=requests.get("http://127.0.0.1:5312/language_api")
+    data=json.loads(data.content)
+    return render_template("language.html", data=data)
+
 
 if __name__=="__main__":
     app.run(debug=True,port=5312)
