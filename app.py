@@ -248,6 +248,102 @@ def dance():
     data=json.loads(data.content)
     return render_template("dance.html", data=data)
 
+@app.route("/himachal_api")
+def himachal_api():
+    with open(r"static/json/himachal.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/himachal")
+def himachal():
+    data=requests.get("http://127.0.0.1:5312/himachal_api")
+    data=json.loads(data.content)
+    return render_template("himachal.html", data=data)
+
+@app.route("/bengal_api")
+def bengal_api():
+    with open(r"static/json/bengal.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/bengal")
+def bengal():
+    data=requests.get("http://127.0.0.1:5312/bengal_api")
+    data=json.loads(data.content)
+    return render_template("bengal.html", data=data)
+
+@app.route("/bihar_api")
+def bihar_api():
+    with open(r"static/json/bihar.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/bihar")
+def bihar():
+    data=requests.get("http://127.0.0.1:5312/bihar_api")
+    data=json.loads(data.content)
+    return render_template("bihar.html", data=data)
+
+@app.route("/chhatisgarh_api")
+def chhatisgarh_api():
+    with open(r"static/json/chhatisgarh.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/chhatisgarh")
+def chhatisgarh():
+    data=requests.get("http://127.0.0.1:5312/chhatisgarh_api")
+    data=json.loads(data.content)
+    return render_template("chhatisgarh.html", data=data)
+
+@app.route("/jharkhand_api")
+def jharkhand_api():
+    with open(r"static/json/jharkhand.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/jharkhand")
+def jharkhand():
+    data=requests.get("http://127.0.0.1:5312/jharkhand_api")
+    data=json.loads(data.content)
+    return render_template("jharkhand.html", data=data)
+
+@app.route("odisha_api")
+def odisha_api():
+    with open(r"static/json/odisha.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/odisha")
+def odisha():
+    data=requests.get("http://127.0.0.1:5312/odisha_api")
+    data=json.loads(data.content)
+    return render_template("odisha.html", data=data)
+
+@app.route("/sikkim_api")
+def sikkim_api():
+    with open(r"static/json/sikkim.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/sikkim")
+def sikkim():
+    data=requests.get("http://127.0.0.1:5312/sikkim_api")
+    data=json.loads(data.content)
+    return render_template("sikkim.html", data=data)
+
+@app.route("/uttarakhand_api")
+def uttarakhand_api():
+    with open(r"static/json/uttarakhand.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/uttarakhand")
+def uttarakhand():
+    data=requests.get("http://127.0.0.1:5312/uttarakhand_api")
+    data=json.loads(data.content)
+    return render_template("uttarakhand.html", data=data)
+
 
 if __name__=="__main__":
     app.run(debug=True,port=5312)
