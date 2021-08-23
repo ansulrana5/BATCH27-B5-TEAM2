@@ -46,7 +46,7 @@ def Gallery():
 
 @app.route("/maharashtra_api")
 def maharashtra_api():
-    with open(r"maharashtra.json",'r') as jsonfile:
+    with open(r"static/json/maharashtra.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
@@ -58,7 +58,7 @@ def maharashtra():
 
 @app.route("/uttarpradesh_api")
 def uttarpradesh_api():
-    with open(r"uttarpradesh.json",'r') as jsonfile:
+    with open(r"static/json/uttarpradesh.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
@@ -70,7 +70,7 @@ def uttarpradesh():
 
 @app.route("/andhrapradesh_api")
 def andhrapradesh_api():
-    with open(r"andhrapradesh.json",'r') as jsonfile:
+    with open(r"static/json/andhrapradesh.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
@@ -82,7 +82,7 @@ def andhrapradesh():
 
 @app.route("/telangana_api")
 def telangana_api():
-    with open(r"telangana.json",'r') as jsonfile:
+    with open(r"static/json/telangana.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
@@ -94,7 +94,7 @@ def telangana():
 
 @app.route("/tamilnadu_api")
 def tamilnadu_api():
-    with open(r"tamilnadu.json",'r') as jsonfile:
+    with open(r"static/json/tamilnadu.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
@@ -106,7 +106,7 @@ def tamilnadu():
 
 @app.route("/kerala_api")
 def kerala_api():
-    with open(r"kerala.json",'r') as jsonfile:
+    with open(r"static/json/kerala.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
@@ -118,7 +118,7 @@ def kerala():
 
 @app.route("/karnataka_api")
 def karnataka_api():
-    with open(r"karnataka.json",'r') as jsonfile:
+    with open(r"static/json/karnataka.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
@@ -130,7 +130,7 @@ def karnataka():
 
 @app.route("/punjab_api")
 def punjab_api():
-    with open(r"punjab.json",'r') as jsonfile:
+    with open(r"static/json/punjab.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
@@ -142,7 +142,7 @@ def punjab():
 
 @app.route("/gujarat_api")
 def gujarat_api():
-    with open(r"gujarat.json",'r') as jsonfile:
+    with open(r"static/json/gujarat.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
@@ -154,7 +154,7 @@ def gujarat():
 
 @app.route("/madhyapradesh_api")
 def madhyapradesh_api():
-    with open(r"madhyapradesh.json",'r') as jsonfile:
+    with open(r"static/json/madhyapradesh.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
@@ -166,7 +166,7 @@ def madhyapradesh():
 
 @app.route("/haryana_api")
 def haryana_api():
-    with open(r"haryana.json",'r') as jsonfile:
+    with open(r"static/json/haryana.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
@@ -178,7 +178,7 @@ def haryana():
 
 @app.route("/monuments_api")
 def monuments_api():
-    with open(r"monuments.json",'r') as jsonfile:
+    with open(r"static/json/monuments.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
@@ -190,7 +190,7 @@ def monuments():
 
 @app.route("/indianfood_api")
 def indianfood_api():
-    with open(r"indianfood.json",'r') as jsonfile:
+    with open(r"static/json/indianfood.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
@@ -202,7 +202,7 @@ def indianfood():
 
 @app.route("/culture_api")
 def culture_api():
-    with open(r"culture.json",'r') as jsonfile:
+    with open(r"static/json/culture.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
@@ -214,7 +214,7 @@ def culture():
 
 @app.route("/language_api")
 def language_api():
-    with open(r"language.json",'r') as jsonfile:
+    with open(r"static/json/language.json",'r') as jsonfile:
         data=json.loads(jsonfile.read())
     return data
 
