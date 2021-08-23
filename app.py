@@ -224,6 +224,30 @@ def language():
     data=json.loads(data.content)
     return render_template("language.html", data=data)
 
+@app.route("/music_api")
+def music_api():
+    with open(r"static/json/music.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/music")
+def music():
+    data=requests.get("http://127.0.0.1:5312/music_api")
+    data=json.loads(data.content)
+    return render_template("music.html", data=data)
+
+@app.route("/dance_api")
+def dance_api():
+    with open(r"static/json/dance.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/dance")
+def dance():
+    data=requests.get("http://127.0.0.1:5312/dance_api")
+    data=json.loads(data.content)
+    return render_template("dance.html", data=data)
+
 
 if __name__=="__main__":
     app.run(debug=True,port=5312)
