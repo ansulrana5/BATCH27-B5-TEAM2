@@ -345,5 +345,106 @@ def uttarakhand():
     return render_template("uttarakhand.html", data=data)
 
 
+@app.route("/meghalaya_api")
+def meghalaya_api():
+    with open(r"static/json/meghalaya.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/meghalaya")
+def meghalaya():
+    data=requests.get("http://127.0.0.1:5312/meghalaya_api")
+    data=json.loads(data.content)
+    return render_template("meghalaya.html", data=data)
+
+
+@app.route("/tripura_api")
+def tripura_api():
+    with open(r"static/json/tripura.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/tripura")
+def tripura():
+    data=requests.get("http://127.0.0.1:5312/tripura_api")
+    data=json.loads(data.content)
+    return render_template("tripura.html", data=data)
+
+
+@app.route("/arunachal_api")
+def arunachal_api():
+    with open(r"static/json/arunachal.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/arunachal")
+def arunachal():
+    data=requests.get("http://127.0.0.1:5312/arunachal_api")
+    data=json.loads(data.content)
+    return render_template("arunachal.html", data=data)
+
+@app.route("/assam_api")
+def assam_api():
+    with open(r"static/json/assam.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/assam")
+def assam():
+    data=requests.get("http://127.0.0.1:5312/assam_api")
+    data=json.loads(data.content)
+    return render_template("assam.html", data=data)
+
+
+@app.route("/manipur_api")
+def manipur_api():
+    with open(r"static/json/manipur.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/manipur")
+def manipur():
+    data=requests.get("http://127.0.0.1:5312/manipur_api")
+    data=json.loads(data.content)
+    return render_template("manipur.html", data=data)
+
+
+@app.route("/nagaland_api")
+def nagaland_api():
+    with open(r"static/json/nagaland.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/nagaland")
+def nagaland():
+    data=requests.get("http://127.0.0.1:5312/nagaland_api")
+    data=json.loads(data.content)
+    return render_template("nagaland.html", data=data)
+
+@app.route("/mizoram_api")
+def mizoram_api():
+    with open(r"static/json/mizoram.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/mizoram")
+def mizoram():
+    data=requests.get("http://127.0.0.1:5312/mizoram_api")
+    data=json.loads(data.content)
+    return render_template("mizoram.html", data=data)
+
+@app.route("/jammu_api")
+def jammu_api():
+    with open(r"static/json/jammu.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/jammu")
+def jammu():
+    data=requests.get("http://127.0.0.1:5312/jammu_api")
+    data=json.loads(data.content)
+    return render_template("jammu.html", data=data)
+
+
 if __name__=="__main__":
     app.run(debug=True,port=5312)

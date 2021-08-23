@@ -1,0 +1,51 @@
+{
+    "data": [
+        {
+            "state": "manipur",
+            "img": "https://www.transindiatravels.com/wp-content/uploads/imphal1.jpg?ezimgfmt=ng:webp/ngcb2",
+            "data1": "Manipur, the land popularly referred to as the ‘Switzerland of India’ is the right tourist destination for nature lovers. Located in North East India amidst breathtaking blue hills, Manipur is amazingly soul-captivating. The name in itself means ‘A jeweled land’ and it is just right that the state was described the ‘Jewel of India’ by Late Jawaharlal Nehru, the first Prime Minister of independent India.",
+            "data2": "The state is rich in every sense, be it in the beauty of nature or the culture of the land. Here are the top 8 tourist destinations in Manipur.",
+            "place":[{
+                "name":"UKHRUL",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/ukhrul1.jpg?ezimgfmt=ng:webp/ngcb2", 
+                "about":"Nashik is an ancient city and the largest city in the northern region of the Indian state of Maharashtra. Situated on the banks of river Godavari, Nashik is the fourth largest city in Maharashtra, after Mumbai, Pune and Nagpur. Nashik is well known for being one of the Hindu pilgrimage sites of the Kumbh Mela, which is held every 12 years.[7][8] Nashik is located about 190 km north of state capital Mumbai."
+            },
+            {
+                "name":"IMPHAL",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/imphal1.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Nashik is an ancient city and the largest city in the northern region of the Indian state of Maharashtra. Situated on the banks of river Godavari, Nashik is the fourth largest city in Maharashtra, after Mumbai, Pune and Nagpur. Nashik is well known for being one of the Hindu pilgrimage sites of the Kumbh Mela, which is held every 12 years.[7][8] Nashik is located about 190 km north of state capital Mumbai."
+            },
+            {
+                "name":"BISHNUPUR",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/bishnupur2.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Nashik is an ancient city and the largest city in the northern region of the Indian state of Maharashtra. Situated on the banks of river Godavari, Nashik is the fourth largest city in Maharashtra, after Mumbai, Pune and Nagpur. Nashik is well known for being one of the Hindu pilgrimage sites of the Kumbh Mela, which is held every 12 years.[7][8] Nashik is located about 190 km north of state capital Mumbai."
+            },
+            {
+                "name":"THOUBAL",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/thoubal1.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Nashik is an ancient city and the largest city in the northern region of the Indian state of Maharashtra. Situated on the banks of river Godavari, Nashik is the fourth largest city in Maharashtra, after Mumbai, Pune and Nagpur. Nashik is well known for being one of the Hindu pilgrimage sites of the Kumbh Mela, which is held every 12 years.[7][8] Nashik is located about 190 km north of state capital Mumbai."
+            },
+            {
+                "name":"CHANDEL",
+                "p_img":"http://www.vivacepanorama.com/wp-content/uploads/2015/10/Chandel-of-Bundelkhand.jpg",
+                "about":"Nashik is an ancient city and the largest city in the northern region of the Indian state of Maharashtra. Situated on the banks of river Godavari, Nashik is the fourth largest city in Maharashtra, after Mumbai, Pune and Nagpur. Nashik is well known for being one of the Hindu pilgrimage sites of the Kumbh Mela, which is held every 12 years.[7][8] Nashik is located about 190 km north of state capital Mumbai."
+            },
+            {
+                "name":"SENAPATI",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/senapati1.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Nashik is an ancient city and the largest city in the northern region of the Indian state of Maharashtra. Situated on the banks of river Godavari, Nashik is the fourth largest city in Maharashtra, after Mumbai, Pune and Nagpur. Nashik is well known for being one of the Hindu pilgrimage sites of the Kumbh Mela, which is held every 12 years.[7][8] Nashik is located about 190 km north of state capital Mumbai."
+            },
+            {
+                "name":"TAMENGLONG",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/tamenglong.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Nashik is an ancient city and the largest city in the northern region of the Indian state of Maharashtra. Situated on the banks of river Godavari, Nashik is the fourth largest city in Maharashtra, after Mumbai, Pune and Nagpur. Nashik is well known for being one of the Hindu pilgrimage sites of the Kumbh Mela, which is held every 12 years.[7][8] Nashik is located about 190 km north of state capital Mumbai."
+            },
+            {
+                "name":"CHURACHANDPUR",
+                "p_img":"https://www.transindiatravels.com/wp-content/uploads/churachandpur1.jpg?ezimgfmt=ng:webp/ngcb2",
+                "about":"Nashik is an ancient city and the largest city in the northern region of the Indian state of Maharashtra. Situated on the banks of river Godavari, Nashik is the fourth largest city in Maharashtra, after Mumbai, Pune and Nagpur. Nashik is well known for being one of the Hindu pilgrimage sites of the Kumbh Mela, which is held every 12 years.[7][8] Nashik is located about 190 km north of state capital Mumbai."
+            }
+        ]
+        }
+    ]
+}
