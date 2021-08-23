@@ -1,191 +1,52 @@
 <html>
+
 <head>
-<link rel="stylesheet" href="../static/css/desc.css">
+    <link rel="stylesheet" href="../static/css/desc.css">
+    <link rel="stylesheet" href="../static/css/na.css">
 </head>
+
 <body>
-  <nav><style>
+    <nav>
 
-  @font-face {
-      font-family: JuneBug;
-      src: url('SAMAN___.TTF');
-  }
-  
-  * {
-      padding: 0;
-      margin: 0;
-      text-decoration: none;
-      list-style: none;
-      box-sizing: border-box;
-  }
-  
-  body {
-      font-family: montserrat;
-      text-align: center;
-      background-color: #d7f0a9;
-  }
-  
-  nav {
-      background: #fdfdfd;
-      height: 90px;
-      width: 100%;
-      box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      border-bottom-left-radius: 2em;
-      border-bottom-right-radius: 2em;
-  }
-  
-  label.logo {
-      color: rgb(211, 29, 29);
-      font-size: 55px;
-      line-height: 80px;
-      padding: 0 100px;
-      font-weight: bold;
-      font-family: JuneBug;
-  }
-  
-  nav ul {
-      box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      margin-top: 14px;
-      width: 55%;
-      background-color: #9898ec;
-      float: right;
-      margin-right: 5px;
-      border-radius: 2em;
-  }
-  
-  nav ul li {
-      display: inline-block;
-      line-height: 50px;
-      margin: 0 15px;
-  }
-  
-  nav ul li a {
-      color: rgb(249, 250, 252);
-      font-size: 20px;
-      padding: 5px 10px;
-      border-radius: 3px;
-      font-weight: bold;
-      text-transform: uppercase;
-  }
-  
-  a.active,
-  a:hover {
-      background: #1bff95;
-      transition: .5s;
-  }
-  
-  .checkbtn {
-      font-size: 30px;
-      color: white;
-      float: right;
-      line-height: 80px;
-      margin-right: 40px;
-      cursor: pointer;
-      display: none;
-  }
-  
-  #check {
-      display: none;
-  }
-  
-  @media (max-width: 952px) {
-      label.logo {
-          font-size: 30px;
-          padding-left: 50px;
-      }
-      nav ul li a {
-          font-size: 16px;
-      }
-  }
-  
-  @media (max-width: 858px) {
-      .checkbtn {
-          display: block;
-      }
-      ul {
-          position: fixed;
-          width: 100%;
-          height: 100vh;
-          background: #2c3e50;
-          top: 80px;
-          left: -100%;
-          text-align: center;
-          transition: all .5s;
-      }
-      nav ul li {
-          display: block;
-          margin: 50px 0;
-          line-height: 30px;
-      }
-      nav ul li a {
-          font-size: 20px;
-      }
-      a:hover,
-      a.active {
-          background: none;
-          color: #0082e6;
-      }
-      #check:checked~ul {
-          left: 0;
-      }
-  }</style>
-    <label class="logo ">SANSKRITI</label>
-    <ul>
-        <li><a href="{{url_for( 'Map')}} ">Home</a></li>
-        <li><a href="{{url_for( 'About')}} ">About</a></li>
-        <li><a href="{{url_for( 'Contact')}} ">Contact</a></li>
-        <li><a href="{{url_for( 'Gallery')}} ">Gallery</a></li>
-        <li>
-            <a href="{{url_for( 'Team')}} ">Team</a>
-        </li>
-    </ul>
-</nav>
-<br>
-{% block content %}
+        <label class="logo ">SANSKRITI</label>
+        <ul>
+            <li><a href="{{url_for( 'Map')}} ">Home</a></li>
+            <li><a href="{{url_for( 'About')}} ">About</a></li>
+            <li><a href="{{url_for( 'Contact')}} ">Contact</a></li>
+            <li><a href="{{url_for( 'Gallery')}} ">Gallery</a></li>
+            <li>
+                <a href="{{url_for( 'Team')}} ">Team</a>
+            </li>
+        </ul>
+    </nav>
+    <br> {% block content %} {%for i in data['data']%}
+    <h1>{{i['state']}}</h1>
 
-{%for i in data['data']%}
-<h1>{{i['state']}}</h1>
+    <h2 class="centered">मुंबई महाराष्ट्र</h2>
+    <h2 class="centered2">Mumbai Maharashtra</h2><br>
+    <img src="{{i['img']}}" id="map"></img><br>
 
-<h2 class="centered">मुंबई महाराष्ट्र</h2>
-<h2 class="centered2">Mumbai Maharashtra</h2><br>
-<img src="{{i['img']}}" id="map"></img><br>
-
-<p id="para">{{i["data1"]}}</p>
-<p id="para"><span id="dots"></span><span id="more"></br>{{i["data2"]}}</span></p>
-<p style="text-align: center;"><a onclick="myFunction()" id="myBtn">Read more</a></p><br>
-<h1>Places to visit :- </h1>
-<div class="row">
-  {%for j in i["place"]%}<div class="column">
-  <div style="width:100%; height: 250px;"class="card">
-    <div style="width:100%; height: 200px;"class="flip-card-inner">
-        <div style="width:100%; height: 200px;"class="flip-card-front">
-          <img  src="{{j['p_img']}}" alt="Avatar" style="width:100%; height: 200px;"></br>
-            <h4><b>{{j["name"]}}</b></h4>
-          </div>
-        <p class="reverse">{{j["about"]}}</p>
-      </div>
+    <p id="para">{{i["data1"]}}</p>
+    <p id="para"><span id="dots"></span><span id="more"></br>{{i["data2"]}}</span></p>
+    <p style="text-align: center;"><a onclick="myFunction()" id="myBtn">Read more</a></p><br>
+    <h1>Places to visit :- </h1>
+    <div class="row">
+        {%for j in i["place"]%}
+        <div class="column">
+            <div style="width:100%; height: 250px;" class="card">
+                <div style="width:100%; height: 200px;" class="flip-card-inner">
+                    <div style="width:100%; height: 200px;" class="flip-card-front">
+                        <img src="{{j['p_img']}}" alt="Avatar" style="width:100%; height: 200px;"></br>
+                        <h4><b>{{j["name"]}}</b></h4>
+                    </div>
+                    <p class="reverse">{{j["about"]}}</p>
+                </div>
+            </div>
+        </div>
+        {%endfor%}
     </div>
-  </div>
-{%endfor%}
-</div>
-{%endfor%}
-
-{% endblock %}
-
+    {%endfor%} {% endblock %}
+    <script src="../static/js/slide.js"></script>
 </body>
-<script src"../js/index.js">
-function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
 
-    if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
-        moreText.style.display = "none";
-    } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less";
-        moreText.style.display = "inline";
-    }
-}</script>
 </html>

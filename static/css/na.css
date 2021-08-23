@@ -1,5 +1,3 @@
-/* nav bar */
-
 @font-face {
     font-family: JuneBug;
     src: url('SAMAN___.TTF');
@@ -17,8 +15,6 @@ body {
     font-family: montserrat;
     text-align: center;
     background-color: #d7f0a9;
-    background-image: url("../images/e.jpg");
-    background-size: 6100px;
 }
 
 nav {
@@ -67,8 +63,12 @@ nav ul li a {
 
 a.active,
 a:hover {
-    background: #1bff95;
+    background: #c6d1cc;
     transition: .5s;
+}
+
+#myBtn {
+    background-color: none;
 }
 
 .checkbtn {
@@ -124,131 +124,5 @@ a:hover {
     }
     #check:checked~ul {
         left: 0;
-    }
-}
-
-section {
-    background: url(bg1.jpg) no-repeat;
-    background-size: cover;
-    height: calc(100vh - 80px);
-}
-
-#button {
-    border-style: solid;
-    border-color: black;
-    width: 50px;
-}
-
-button:hover,
-button.active {
-    background: #1b9bff;
-    transition: .5s;
-    cursor: pointer;
-    color: white;
-    float: center;
-    line-height: 25px;
-    width: 80px;
-}
-
-.row {
-    display: flex;
-    margin-left: 50px;
-    justify-content: space-evenly;
-}
-
-.column {
-    padding: 15px;
-}
-
-.paragraph {
-    text-align: center;
-    padding: 25px;
-    width: 90%;
-    font-size: 24px;
-    border: solid;
-    text-align: center;
-    margin: 05%;
-    background-color: #F9A8F4;
-}
-
-.paragraph2 {
-    text-align: center;
-    padding: 30px;
-    width: 90%;
-    font-size: 24px;
-    border: solid;
-    text-align: center;
-    margin: 05%;
-    background-color: #F9A8F4;
-}
-
-
-/* contact us page*/
-
-* {
-    box-sizing: border-box;
-}
-
-
-/* Style inputs */
-
-input[type=text],
-select,
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 20px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-
-/* Style the container/contact section */
-
-.container {
-    border-radius: 5px;
-    padding: 30px;
-}
-
-
-/* Create two columns that float next to eachother */
-
-.column {
-    float: left;
-    width: 49%;
-    margin-top: 20px;
-    padding: 20px;
-}
-
-
-/* Clear floats after the columns */
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 600px) {
-    .column,
-    input[type=submit] {
-        width: 100%;
-        margin-top: 0;
     }
 }

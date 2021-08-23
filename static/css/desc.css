@@ -2,14 +2,15 @@
     font-family: JuneBug;
     src: url('SAMAN___.TTF');
 }
-h1{
+
+h1 {
     font-family: JuneBUg;
     text-align: center;
     font-weight: bold;
     color: coral;
 }
 
-h2{
+h2 {
     font-family: JuneBUg;
     text-align: center;
     font-weight: bold;
@@ -17,29 +18,28 @@ h2{
     font-size: 80px;
 }
 
-#map{
+#map {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 95%;
     height: 600px;
-
 }
 
 .centered {
     position: absolute;
-    top: 105%;
-    right: 47%;
-    transform: translate(-50%, -50%); 
-  }
+    top: 90%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
 
-  .centered2 {
+.centered2 {
     position: absolute;
     top: 100%;
     left: 79%;
-    transform: translate(-50%, -50%); 
-  }
-  
+    transform: translate(-50%, -50%);
+}
+
 #para {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -62,95 +62,110 @@ h2{
     color: rgb(65, 93, 219);
 }
 
-  
 
-  /* Responsive Cards*/
-  * {
-  box-sizing: border-box;
+/* Responsive Cards*/
+
+* {
+    box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 /* Float four columns side by side */
+
 .column {
-  float: left;
-  width: 25%;
-  padding: 10px 10px;
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
 }
+
 
 /* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+
+.row {
+    margin: 0 -5px;
+}
+
 
 /* Clear floats after the columns */
+
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
+
 
 /* Responsive columns */
+
 @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
 }
 
+
 /* Style the counter cards */
+
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
 }
 
 .card:hover .image img {
-  opacity: .5;
-  transform: translateX(30%);/*100%*/
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: .5;
+    transform: translateX(30%);
+    /*100%*/
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .flip-card-inner {
-  position: relative;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: relative;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .flip-card-front {
-  background-color: #bbb;
-  width: 100%;
-  color: black;
+    background-color: #bbb;
+    width: 100%;
+    color: black;
 }
 
 .flip-card-back {
-  background-color: #2980b9;
-  color: white;
-  transform: rotateY(180deg);
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
 }
 
-.reverse{
+.reverse {
     transform: rotateY(180deg);
     padding: 10px 10px;
     opacity: 0;
 }
-.reverse:hover{
-  transform: rotateY(180deg);
-  padding: 10px 10px;
-  opacity: 1;
+
+.reverse:hover {
+    transform: rotateY(180deg);
+    padding: 10px 10px;
+    opacity: 1;
 }
