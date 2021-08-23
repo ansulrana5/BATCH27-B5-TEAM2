@@ -1,52 +1,8 @@
-<html>
 
-<head>
-    <link rel="stylesheet" href="../static/css/desc.css">
-    <link rel="stylesheet" href="../static/css/na.css">
-</head>
+{%extends "states.html" %}
+{%block content1%}
 
-<body>
-    <nav>
-
-        <label class="logo ">SANSKRITI</label>
-        <ul>
-            <li><a href="{{url_for( 'Map')}} ">Home</a></li>
-            <li><a href="{{url_for( 'About')}} ">About</a></li>
-            <li><a href="{{url_for( 'Contact')}} ">Contact</a></li>
-            <li><a href="{{url_for( 'Gallery')}} ">Gallery</a></li>
-            <li>
-                <a href="{{url_for( 'Team')}} ">Team</a>
-            </li>
-        </ul>
-    </nav>
-    <br> {% block content %} {%for i in data['data']%}
-    <h1>{{i['state']}}</h1>
-
-    <h2 style="top:670px;margin-right:100px;" class="centered">बैंगलोर</h2>
+<h2 style="top:670px;margin-right:100px;" class="centered">बैंगलोर</h2>
     <h2 style="top:670px;" class="centered2">Bangalore</h2><br>
-    <img src="{{i['img']}}" id="map"></img><br>
 
-    <p id="para">{{i["data1"]}}</p>
-    <p id="para"><span id="dots"></span><span id="more"></br>{{i["data2"]}}</span></p>
-    <p style="text-align: center;"><a onclick="myFunction()" id="myBtn">Read more</a></p><br>
-    <h1>Places to visit :- </h1>
-    <div class="row">
-        {%for j in i["place"]%}
-        <div class="column">
-            <div style="width:100%; height: 250px;" class="card">
-                <div style="width:100%; height: 200px;" class="flip-card-inner">
-                    <div style="width:100%; height: 200px;" class="flip-card-front">
-                        <img src="{{j['p_img']}}" alt="Avatar" style="width:100%; height: 200px;"></br>
-                        <h4><b>{{j["name"]}}</b></h4>
-                    </div>
-                    <p class="reverse">{{j["about"]}}</p>
-                </div>
-            </div>
-        </div>
-        {%endfor%}
-    </div>
-    {%endfor%} {% endblock %}
-    <script src="../static/js/slide.js"></script>
-</body>
-
-</html>
+{% endblock %}
