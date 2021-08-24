@@ -14,7 +14,6 @@
             <li><a href="{{url_for( 'Map')}} ">Home</a></li>
             <li><a href="{{url_for( 'About')}} ">About</a></li>
             <li><a href="{{url_for( 'Contact')}} ">Contact</a></li>
-            <li><a href="{{url_for( 'Gallery')}} ">Gallery</a></li>
             <li>
                 <a href="{{url_for( 'Team')}} ">Team</a>
             </li>
@@ -28,15 +27,15 @@
         {%for j in i["place"]%}
         <div class="box">
             <div class="imgbox">
-                     <img src="{{j['p_img']}}" alt="Avatar" style="width:100% ; height: 200px;"></br>
-                     <h5><b>{{j["name"]}}</b></h5>
-                     <h5><b>{{j["yr"]}}</b></h5>
-                     
-                    </div> <br><br><br>
-                    <p>{{j["about"]}}</p>
-                </div>
-            
-       
+                <img src="{{j['p_img']}}" alt="Avatar" style="width:100% ; height: 200px;"></br>
+                <h5><b>{{j["name"]}}</b></h5>
+                <h5><b>{{j["yr"]}}</b></h5>
+
+            </div> <br><br><br>
+            <p>{{j["about"]}}</p>
+        </div>
+
+
         {%endfor%}
     </div>
     {%endfor%} {% endblock %}
