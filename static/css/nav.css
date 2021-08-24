@@ -67,8 +67,8 @@ nav ul li a {
 
 a.active,
 a:hover {
-    background: #d7f3e6;
-    transition: .5s;
+    background: #c6d1cc;
+    transition: .2s;
 }
 
 .checkbtn {
