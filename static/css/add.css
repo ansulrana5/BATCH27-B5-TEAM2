@@ -1,0 +1,102 @@
+@font-face {
+  font-family: JuneBug;
+  src: url("SAMAN___.TTF");
+}
+
+h1 {
+  font-family: JuneBUg;
+  text-align: center;
+  font-weight: bold;
+  color: coral;
+}
+
+/* Responsive Cards*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Responsive columns */
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 90px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 900;
+}
+.container {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+.container .box {
+  position: relative;
+  height: 400px;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  border-radius: 10px;
+  text-align: center;
+}
+.container .box::before {
+  position: absolute;
+  content: "";
+  top: 99%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #585a5a;
+  background-image: linear-gradient(315deg, #5a5858 0%, #413430 74%);
+  transition: 0.4s;
+}
+.container .box:hover::before {
+  top: 50%;
+}
+.container .box .imgbox {
+  width: 100%;
+  height: 50%;
+}
+.container .box .imgbox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container .box h5 {
+  font-size: 28px;
+  position: relative;
+}
+.container .box:hover h5 {
+  color: white;
+}
+.container .box p {
+  font-size: 14px;
+  position: relative;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+.container .box:hover p {
+  color: white;
+}
