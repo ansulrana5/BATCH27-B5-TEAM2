@@ -56,7 +56,6 @@
         z-index: 999;
         margin-left: -120px;
         margin-bottom: 20px;
-        padding: 15px;
         color: rgb(247, 241, 241);
         border-radius: 1em;
         box-shadow: 0 3px 8px rgba(37, 34, 34, 0.7);
@@ -84,17 +83,12 @@
         bottom: -10px;
         top: auto;
         border-bottom: 0;
-        border-top: 10px solid #1932c0;
+        border-top: 10px solid #e9eaf1;
     }
     
     .tooltip .te {
-        font: bold 1.3em 'Trebuchet MS', Tahoma, Arial;
+        font: bold 1.6em 'Trebuchet MS', Tahoma, Arial;
         margin: 0 0 10px;
         color: #0f1110;
-    }
-    
-    .tooltip .uo {
-        margin: 0;
-        padding: 0;
-        list-style: none;
+        padding: 4px;
     }

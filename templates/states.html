@@ -13,7 +13,6 @@
             <li><a href="{{url_for( 'Map')}} ">Home</a></li>
             <li><a href="{{url_for( 'About')}} ">About</a></li>
             <li><a href="{{url_for( 'Contact')}} ">Contact</a></li>
-            <li><a href="{{url_for( 'Gallery')}} ">Gallery</a></li>
             <li>
                 <a href="{{url_for( 'Team')}} ">Team</a>
             </li>
@@ -22,8 +21,7 @@
     <br> {% block content %} {%for i in data['data']%}
     <h1>{{i['state']}}</h1>
 
-    {% block content1 %}
-    {% endblock %}
+    {% block content1 %} {% endblock %}
     <img src="{{i['img']}}" id="map"></img><br>
 
     <p id="para">{{i["data1"]}}</p>
