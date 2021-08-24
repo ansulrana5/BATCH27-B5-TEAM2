@@ -21,10 +21,11 @@
         transform: translate(-50%, -50%);
         font-size: 29px;
         color: rgb(255, 255, 255);
-        background-color: rgba(87, 79, 79, 0.2);
+        background-color: rgba(87, 79, 79, 0.4);
         border-bottom-left-radius: 0.3em;
         border-bottom-right-radius: 0.3em;
         padding-top: 12px;
+        font-weight: 900;
     }
     /* Hide the original tooltips contents */
     
@@ -39,7 +40,6 @@
         width: 30px;
         height: 30px;
         border-radius: 3em;
-        background-color: #0f1110;
     }
     
     .tooltip-down {
@@ -91,5 +91,5 @@
         font: bold 1.6em 'Trebuchet MS', Tahoma, Arial;
         margin: 0 0 10px;
         color: #0f1110;
-        padding: 4px;
+        padding: 3px;
     }
