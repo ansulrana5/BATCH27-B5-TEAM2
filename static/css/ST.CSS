@@ -21,7 +21,7 @@
         transform: translate(-50%, -50%);
         font-size: 29px;
         color: rgb(255, 255, 255);
-        background-color: rgba(87, 79, 79, 0.3);
+        background-color: rgba(87, 79, 79, 0.2);
         border-bottom-left-radius: 0.3em;
         border-bottom-right-radius: 0.3em;
         padding-top: 12px;
@@ -39,7 +39,6 @@
         width: 30px;
         height: 30px;
         border-radius: 3em;
-        background-color: rgb(8, 7, 7);
     }
     
     .tooltip-down {
@@ -48,19 +47,20 @@
     
     .tooltip {
         display: none;
-        width: 200px;
+        width: 250px;
+        height: 200px;
         text-shadow: 0 1px 0 rgb(94, 80, 80);
-        top: 58%;
+        top: 28%;
         left: 50%;
         position: absolute;
         z-index: 999;
-        margin-left: -100px;
+        margin-left: -120px;
         margin-bottom: 20px;
         padding: 15px;
         color: rgb(247, 241, 241);
-        border-radius: 5px;
+        border-radius: 1em;
         box-shadow: 0 3px 8px rgba(37, 34, 34, 0.7);
-        background: #aeaae2;
+        background: #fdfdfd;
         background: linear-gradient(top, #eff5f0, #e7a412);
     }
     
@@ -84,12 +84,13 @@
         bottom: -10px;
         top: auto;
         border-bottom: 0;
-        border-top: 10px solid #90a1ff;
+        border-top: 10px solid #1932c0;
     }
     
     .tooltip .te {
         font: bold 1.3em 'Trebuchet MS', Tahoma, Arial;
         margin: 0 0 10px;
+        color: #0f1110;
     }
     
     .tooltip .uo {
