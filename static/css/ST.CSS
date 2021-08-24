@@ -10,16 +10,14 @@
         width: fit-content;
         height: fit-content;
         float: right;
-        margin-right: 90px;
-        margin-top: 10px;
+        margin-right: 50px;
+        margin-top: 150px;
     }
     
     .centered {
         width: 400px;
         height: 62px;
         position: absolute;
-        top: 104%;
-        left: 81.7%;
         transform: translate(-50%, -50%);
         font-size: 29px;
         color: rgb(255, 255, 255);
