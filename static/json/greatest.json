@@ -1,0 +1,105 @@
+{
+    "data": [
+        {
+            "state": "greatest indians",
+            "place":[{
+                "name":"B. R. Ambedkar",
+                "yr":"(1891-1956)",
+                "p_img":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Dr._Bhimrao_Ambedkar.jpg/369px-Dr._Bhimrao_Ambedkar.jpg",
+                "about":"Ambedkar is recognised as the founding father of the Republic of India.Polymath scholar, Social reformer and leader of the Dalits,[16][17] Ambedkar was the architect of the Indian Constitution and also served as the first Law Minister of India. "
+            },
+            {
+                "name":"A. P. J. Abdul Kalam ",
+                 "yr":"(1931-2015)",
+                "p_img":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/APJ_Abdul_Kalam_2015_stamp_of_India.jpg/291px-APJ_Abdul_Kalam_2015_stamp_of_India.jpg",
+                "about":"Aerospace and defence scientist, Kalam was involved in the development of India's first satellite launch vehicle SLV III and was the architect of Integrated Guided Missile Development Program. He worked for Indian National Committee for Space Research, Indian Space Research Organisation, Defence Research and Development Laboratory. "
+            },
+            {
+                "name":"Vallabhbhai Patel ",
+                 "yr":"(1875-1950)",
+                "p_img":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Sardar_patel_%28cropped%29.jpg/354px-Sardar_patel_%28cropped%29.jpg",
+                "about":"Widely known as the Iron Man of India, Patel was an independence activist and first Deputy Prime Minister of India (1947–50). Post independence, Sardar Patel worked with V. P. Menon towards dissolving 555 princely states into the Indian union. "
+            },
+            {
+                "name":"Jawaharlal Nehru",
+                 "yr":"(1889-1964)",
+                "p_img":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Jnehru.jpg/333px-Jnehru.jpg",
+                "about":"ndependence activist and author, Nehru is the first and the longest-serving Prime Minister of India (1947–64). Nehru himself was Prime Minister of India at the time of receiving Bharat Ratna award."
+            },
+            {
+                "name":"Mother Teresa",
+                 "yr":"(1910-1997)",
+                "p_img":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mother_Teresa_1.jpg/348px-Mother_Teresa_1.jpg",
+                "about":"Saint Mother Teresa of Calcutta was a catholic nun and the founder of the Missionaries of Charity, a Roman Catholic religious congregation, Which manages homes for people who are dying of HIV/AIDS, leprosy and tuberculosis. She was awarded the Nobel Peace Prize for her humanitarian work"
+            },
+            {
+                "name":"J. R. D. Tata",
+                 "yr":"(1904-1993)",
+                "p_img":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/J.R.D._Tata_%281955%29.jpg/391px-J.R.D._Tata_%281955%29.jpg",
+                "about":"Industrialist, philanthropist, and aviation pioneer, Tata founded India's first airline Air India. He is the founder of various institutes including Tata Institute of Fundamental Research, Tata Memorial Hospital, Tata Institute of Social Sciences, Tata Motors, TCS, National Institute of Advanced Studies, and National Centre for the Performing Arts."
+            },
+            {
+                "name":"Indira Gandhi",
+                 "yr":"(1917-1984)",
+                "p_img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Indira_Gandhi_1966.jpg/318px-Indira_Gandhi_1966.jpg",
+                "about":"Known as the Iron Lady of India,[33] Gandhi was the Prime Minister of India during 1966–77 and 1980–84.[28] During the Indo-Pakistani War of 1971, her government supported Bangladesh Liberation War which led to the formation of a new country, Bangladesh."
+            },
+            {
+                "name":"Sachin Tendulkar",
+                 "yr":"(b. 1973)",
+                "p_img":"https://upload.wikimedia.org/wikipedia/commons/2/25/Sachin_Tendulkar_at_MRF_Promotion_Event.jpg",
+                "about":"Having debuted in 1989, Tendulkar played 664 international cricket matches in a career spanning over two decades. He holds various cricket records including the only player to have scored one hundred international centuries, the first batsman to score a double century in a One Day International."
+            },
+            {
+                "name":"Atal Bihari Vajpayee",
+                 "yr":"(1924-2018",
+                "p_img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/A_B_Vajpayee_%28cropped%29.jpg/480px-A_B_Vajpayee_%28cropped%29.jpg",
+                "about":"Parliamentarian for over four decades, Vajpayee was elected nine times to the Lok Sabha, twice to the Rajya Sabha and served as the Prime Minister of India for three terms; 1996, 1998, 1999–2004.[28] He was Minister of External Affairs during 1977–79 and was awarded the Best Parliamentarian in 1994.["
+            },
+            {
+                "name":"Lata Mangeshkar",
+                 "yr":"(b. 1929)",
+                "p_img":"https://upload.wikimedia.org/wikipedia/commons/2/2c/Lata-Mangeshkar.jpg",
+                "about":"Widely credited as the nightingale of India, playback singer Mangeshkar started her career in the 1940s and has sung songs in over 36 languages.[39] In 1989, Mangeshkar was awarded the Dadasaheb Phalke Award, India's highest award in cinema."
+            },
+            {
+                "name":"C. Rajagopalachari ",
+                 "yr":"(1878-1972)",
+                "p_img":"https://upload.wikimedia.org/wikipedia/commons/d/d4/Chakravarthi_Rajagopalachari.jpg",
+                "about":"The beautiful women dressed in the elegant attire performing the dance form of Chhau is what you see during the festival time in Kolkata. The popular art coming from eastern India is considered as the dance in the form of martial arts."
+            },
+            {
+                "name":"Sam Manekshaw ",
+                 "yr":"(1914-2008)",
+                "p_img":"https://upload.wikimedia.org/wikipedia/commons/1/19/Field_marshal_SHFJ_Manekshaw.jpg",
+                "about":"Young men and women mostly perform this joyous folk dance from Assam during the Bihu festival. The dancers follow a pattern of rapid hand movement, quick steps and a rhythmic swaying of hips wearing the traditional Assamese clothing with beautiful accessories. "
+            },
+            {
+                "name":"Ravi Shankar ",
+                 "yr":"(1920-2012)",
+                "p_img":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Ravi_Shankar.jpg/342px-Ravi_Shankar.jpg",
+                "about":"Originated from the state of the Maratha empire, Lavani is a dance form of Maharashtra. The female-oriented dance is a blend of traditional music and tales of deities. The origin of Lavani comes from the word Lavanya which means beauty."
+            },
+            {
+                "name":"R. K. Narayan ",
+                 "yr":"(1906-2001)",
+                "p_img":"https://upload.wikimedia.org/wikipedia/en/2/2d/RK_Narayan.jpg",
+                "about":"In Indian mythology, Mohini is the female avatar of Lord Vishnu, and the meaning of Attam in Malayalam is rhythmic motion hence adhering to the dance of the divine enchantress. It is the second most popular dance form of Kerala. "
+            },
+            {
+                "name":"Dilip Kumar ",
+                 "yr":"(1922-2021)",
+                "p_img":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Dilip_Kumar_in_1946_Enhanced.jpg/360px-Dilip_Kumar_in_1946_Enhanced.jpg",
+                "about":"Mahapurusha Sankaradeva, a Vaishnava saint and reformer of Assam, introduced Sattriya dance in the 15th century AD. This dance form was preserved in the Sattras or the Vaishnava Maths; therefore, it remained a living tradition. This dance was an artistic way of presenting mythological teachings."
+            },
+            {
+                "name":"Milkha Singh ",
+                 "yr":"(1935-2021)",
+                "p_img":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Milkha_Singh.jpg/384px-Milkha_Singh.jpg",
+                "about":"Indian dances can be traced back to ancient times. In the cave paintings of Bhimbetka rock shelters in Madhya Pradesh, one can see dancing figures. The sculptures that date back to the Indus Valley Civilization also portray dancing figures."
+            } 
+        ]
+        }
+    ]
+}
+            

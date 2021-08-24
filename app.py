@@ -445,6 +445,18 @@ def jammu():
     data=json.loads(data.content)
     return render_template("jammu.html", data=data)
 
+@app.route("/greatest_api")
+def greatest_api():
+    with open(r"static/json/greatest.json",'r') as jsonfile:
+        data=json.loads(jsonfile.read())
+    return data
+
+@app.route("/greatest")
+def greatest():
+    data=requests.get("http://127.0.0.1:5312/greatest_api")
+    data=json.loads(data.content)
+    return render_template("greatest.html", data=data)
+
 
 if __name__=="__main__":
     app.run(debug=True,port=5312)
