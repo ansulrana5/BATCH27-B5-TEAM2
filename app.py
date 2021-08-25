@@ -8,8 +8,8 @@ app = Flask(__name__)
 app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT']= 465
 app.config['MAIL_USE_SSL']=True
-app.config['MAIL_USERNAME']="divyavanicherukuri11@gmail.com"
-app.config['MAIL_PASSWORD']="aquariuscherukuri@worldtour"
+app.config['MAIL_USERNAME']="divyacf4@gmail.com"
+app.config['MAIL_PASSWORD']="D!vya"
 
 mail=Mail(app)
 
@@ -31,7 +31,7 @@ def Contact():
         name=request.form['name']
         email=request.form['email']
         msg=request.form['subject']
-        message=Message("Hello! This is a mail from "+ email+" regarding the Contact us form ",sender="divyavanicherukuri11@gmail.com",recipients=["divyavanicherukuri11@gmail.com"])
+        message=Message("Hello! This is a mail from "+ email+" regarding the Contact us form ",sender="divyacf4@gmail.com",recipients=["divyacf4@gmail.com"])
         message.body=msg
         mail.send(message)   
     return render_template('contact.html')
